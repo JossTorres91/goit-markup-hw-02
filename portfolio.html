@@ -4,66 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio</title>
+    <title>goit-markup-hw-02</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <a href="index.html" class="raleway">WebStudio</a>
-        <a href="studio.html">Estudio</a>
-        <a href="portfolio.html">Portafolio</a>
-        <a href="">Contactos</a>
+        <a href="index.html" class="webs">WebStudio</a>
+        <a href="studio.html" class="navlink">Estudio</a>
+        <a href="portfolio.html" class="navlink">Portafolio</a>
+        <a href="contacts.html" class="navlink">Contactos</a>
       </nav>
       <div>
-        <a href="">info@devstudio.com</a>
-        <a href="">+52 55 5529 6000</a>
+        <a href="info@devstudio.com" class="headerlink">info@devstudio.com</a>
+        <a href="+52 55 5529 6000" class="headerlink">+52 55 5529 6000</a>
       </div>
     </header>
     <main>
       <section>
-        <button type="button">Todo</button>
-        <button type="button">Sitios-web</button>
-        <button type="button">Aplicaciones</button>
-        <button type="button">Diseño</button>
-        <button type="button">Marketing</button>
+        <button type="button" class="filterbtn">Todo</button>
+        <button type="button" class="filterbtn">Sitios-web</button>
+        <button type="button" class="filterbtn">Aplicaciones</button>
+        <button type="button" class="filterbtn">Diseño</button>
+        <button type="button" class="filterbtn">Marketing</button>
       </section>
-      <figure>
-        <img
-          src="images/img01hw02.jpg"
-          alt="image 01 homework 02"
-          width="370"
-          height="294"
-        />
-        <figcaption>
-          <p>Tecnoduck</p>
-          <p>Sitio-web</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          src="images/img02hw02.jpg"
-          alt="image 02 homework 02"
-          width="370"
-          height="294"
-        />
-        <figcaption>
-          <p>Poster de Nueva Orleans vs Estrella Dorada</p>
-          <p>Diseño</p>
-        </figcaption>
-      </figure>
-      <figure>
-        <img
-          src="images/img03hw02.jpg"
-          alt="image 03 homework 02"
-          width="370"
-          height="294"
-        />
-        <figcaption>
-          <p>Restaurante de Mariscos</p>
-          <p>Apps</p>
-        </figcaption>
-      </figure>
-      <figure>
+      <table>
+        <tr>
+          <td>
+            <figure>
+              <img
+                src="images/img01hw02.jpg"
+                alt="image 01 homework 02"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p>Tecnoduck</p>
+                <p>Sitio-web</p>
+              </figcaption>
+            </figure>
+          </td>
+          <td>
+            <figure>
+              <img
+                src="images/img02hw02.jpg"
+                alt="image 02 homework 02"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p>Poster de Nueva Orleans vs Estrella Dorada</p>
+                <p>Diseño</p>
+              </figcaption>
+            </figure>
+          </td>
+          <td>
+            <figure>
+              <img
+                src="images/img03hw02.jpg"
+                alt="image 03 homework 02"
+                width="370"
+                height="294"
+              />
+              <figcaption>
+                <p>Restaurante de Mariscos</p>
+                <p>Apps</p>
+              </figcaption>
+            </figure>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <figure>
         <img
           src="images/img04hw02.jpg"
           alt="image 04 homework 02"
@@ -75,7 +93,9 @@
           <p>Marketing</p>
         </figcaption>
       </figure>
-      <figure>
+          </td>
+          <td>
+            <figure>
         <img
           src="images/img05hw02.jpg"
           alt="image 05 homework 02"
@@ -87,7 +107,9 @@
           <p>Aplicaciones</p>
         </figcaption>
       </figure>
-      <figure>
+    </td>
+          <td>
+            <figure>
         <img
           src="images/img06hw02.jpg"
           alt="image 06 homework 02"
@@ -99,7 +121,10 @@
           <p>Sitio-web</p>
         </figcaption>
       </figure>
-      <figure>
+          </td>
+          <tr>
+            <td>
+              <figure>
         <img
           src="images/img07hw02.jpg"
           alt="image 07 homework 02"
@@ -111,7 +136,9 @@
           <p>Diseño</p>
         </figcaption>
       </figure>
-      <figure>
+            </td>
+            <td>
+              <figure>
         <img
           src="images/img08hw02.jpg"
           alt="image 08 homework 02"
@@ -123,7 +150,9 @@
           <p>Marketing</p>
         </figcaption>
       </figure>
-      <figure>
+            </td>
+            <td>
+              <figure>
         <img
           src="images/img09hw02.jpg"
           alt="image 09 homework 02"
@@ -135,13 +164,17 @@
           <p>Aplicaciones</p>
         </figcaption>
       </figure>
+            </td>
+          </tr>
+        </tr>
+      </table>
     </main>
     <footer>
       <address>
-        <a href="index.html" class="raleway">WebStudio</a>
+        <a href="index.html" class="webs">WebStudio</a>
         <p>Calz. Ticomán 500, Ciudad de <br />México, CDMX, México</p>
-        <a href="">nfo@example.com</a>
-        <a href="">+52 55 5529 6000</a>
+        <a href="info@example.com" class="footerlink">info@example.com</a>
+        <a href="+525555296000" class="footerlink">+52 55 5529 6000</a>
       </address>
     </footer>
   </body>
